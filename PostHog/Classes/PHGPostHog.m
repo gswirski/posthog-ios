@@ -181,6 +181,7 @@ NSString *const PHGBuildKeyV2 = @"PHGBuildKeyV2";
     return;
   }
   [self capture: @"Application Backgrounded"];
+  [self flush];
 }
 
 
